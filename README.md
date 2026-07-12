@@ -15,7 +15,7 @@ For **business and strategic work**. Decisions, strategy, analysis, problem fram
 
 ### Cognitive Thermals: Research Edition
 
-For **postgraduate and professional research**. Same five-stage Flight Loop, tuned for research with a rigour layer the parent does not carry: evidence appraisal, claim–evidence calibration, search discipline, citation integrity, and a structured search brief. Built for MSc and PhD students, early-career and established researchers, with usability preserved for R&D scientists, analysts, and anyone reasoning rigorously from a literature. Folder: [`cognitive-thermals-research/`](./cognitive-thermals-research/)
+For **postgraduate and professional research**. Same five-stage Flight Loop, tuned for research with a rigour layer the parent does not carry: evidence appraisal, claim–evidence calibration, search discipline, citation integrity, and a structured search brief. Built for MSc and PhD students, early-career and established researchers, with usability preserved for R&D scientists, analysts, and anyone reasoning rigorously from a literature. Folder: https://github.com/Altivus-Vitae/CTSkills/tree/Altivus-Vitae-Cognitive-Thermals--Research-Edition
 
 **Which one?** Pick by your predominant work. Strategic and decision-making → parent. Research, evidence work, academic argument → Research Edition. If both apply at different times, install one, run it in isolation, and load the other only when the task changes.
 
