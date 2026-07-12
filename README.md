@@ -11,7 +11,7 @@ Two skills, one framework. Choose the edition that fits your work; **they are de
 
 ### Cognitive Thermals — the parent edition
 
-For **business and strategic work**. Decisions, strategy, analysis, problem framing, debriefing — any consequential, open-ended thinking task. Five stages, eight operating principles, and an offloading checkpoint that names when a request would transfer your own cognitive work to the assistant. Folder: [`cognitive-thermals/`](./cognitive-thermals/)
+For **business and strategic work**. Decisions, strategy, analysis, problem framing, debriefing — any consequential, open-ended thinking task. Five stages, eight operating principles, and an offloading checkpoint that names when a request would transfer your own cognitive work to the assistant. Folder:https://github.com/Altivus-Vitae/CTSkills
 
 ### Cognitive Thermals: Research Edition
 
