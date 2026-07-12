@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/28762182/README.md)
 # Cognitive Thermals — Critical Thinking Skills
 
-Two AI skills that scaffold human reasoning rather than replacing it. Built on the **Altivus Flight Loop** — a five-stage discipline for working through consequential intellectual work — and developed in the [Cognitive Thermals essay series](https://substack.com/@altivus) by Andrew Smith.
+Two AI skills that scaffold human reasoning rather than replacing it. Built on the **Altivus Flight Loop** — a five-stage discipline for working through consequential intellectual work — and developed in the [Cognitive Thermals essay series]([https://substack.com/@altivus](https://substack.com/@altivus/posts)) by Andrew Smith.
 
 ---
 
