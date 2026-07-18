@@ -1,0 +1,20 @@
+{
+  "name": "altivus-vitae-research",
+  "interface": {
+    "displayName": "Altivus Vitae — Research"
+  },
+  "plugins": [
+    {
+      "name": "cognitive-thermals-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cognitive-thermals-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

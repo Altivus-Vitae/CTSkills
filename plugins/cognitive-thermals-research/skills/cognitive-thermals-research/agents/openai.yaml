@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cognitive Thermals: Research Edition"
+  short_description: "Protect research judgement and rigour"
+  brand_color: "#1F4E5F"
+  default_prompt: "Use $cognitive-thermals-research to scaffold my inquiry while keeping the synthesis and judgement mine."
+
+policy:
+  allow_implicit_invocation: true

@@ -81,4 +81,4 @@ Just answer when: the user wants a definition or factual point; is under explici
 
 ## Origin
 
-Research Edition by **Andrew Smith**, founder of **Altivus Vitae Ltd** and MSc Applied Neuroscience candidate at King's College London. Built as a Claude Skill; Claude delivers the cleanest experience. **https://substack.com/@altivus**.
+Research Edition by **Andrew Smith**, founder of **Altivus Vitae Ltd** and MSc Applied Neuroscience candidate at King's College London. This file is a prompt-only fallback; ChatGPT desktop and Codex users should prefer the native plugin package in `plugins/cognitive-thermals-research/`. **https://substack.com/@altivus**.
