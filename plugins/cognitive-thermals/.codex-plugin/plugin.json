@@ -1,0 +1,29 @@
+{
+  "name": "cognitive-thermals",
+  "version": "1.0.0",
+  "description": "A critical-thinking scaffold that protects human judgement and reduces cognitive offloading.",
+  "author": {
+    "name": "Andrew Smith",
+    "url": "https://github.com/Altivus-Vitae"
+  },
+  "homepage": "https://github.com/Altivus-Vitae/CTSkills",
+  "repository": "https://github.com/Altivus-Vitae/CTSkills",
+  "license": "MIT AND CC-BY-SA-4.0",
+  "keywords": ["critical-thinking", "cognitive-offloading", "decision-making", "metacognition"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Cognitive Thermals",
+    "shortDescription": "Protect human judgement while working with AI",
+    "longDescription": "A five-stage critical-thinking scaffold for consequential work. It helps users calibrate, frame, explore, update and reflect without silently transferring judgement or synthesis to the AI.",
+    "developerName": "Andrew Smith / Altivus Vitae",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://github.com/Altivus-Vitae/CTSkills",
+    "defaultPrompt": [
+      "Help me think through a consequential decision without making it for me.",
+      "Stress-test the question I am asking before we analyse it.",
+      "Guide me through a bounded after-action reflection."
+    ],
+    "brandColor": "#1F4E5F"
+  }
+}

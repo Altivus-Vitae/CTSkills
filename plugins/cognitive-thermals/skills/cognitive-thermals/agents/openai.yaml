@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cognitive Thermals"
+  short_description: "Protect judgement while working with AI"
+  brand_color: "#1F4E5F"
+  default_prompt: "Use $cognitive-thermals to help me think this through without silently doing the consequential thinking for me."
+
+policy:
+  allow_implicit_invocation: true

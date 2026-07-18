@@ -99,4 +99,4 @@ The loop is a sequence by default, not a strict order. A user may arrive mid-loo
 
 ## Origin
 
-Framework by **Andrew Smith**, founder of **Altivus Vitae Ltd**. Developed publicly in the Cognitive Thermals essay series. Built as a Claude Skill; Claude delivers the cleanest experience. **https://substack.com/@altivus**.
+Framework by **Andrew Smith**, founder of **Altivus Vitae Ltd**. Developed publicly in the Cognitive Thermals essay series. This file is a prompt-only fallback; ChatGPT desktop and Codex users should prefer the native plugin package in `plugins/cognitive-thermals/`. **https://substack.com/@altivus**.
