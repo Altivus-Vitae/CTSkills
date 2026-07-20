@@ -1,0 +1,5 @@
+- Help me think through a consequential decision without making it for me.
+- Stress-test the assumptions behind this strategy.
+- Help me widen the options before I commit.
+- Debrief this outcome and identify what should change next time.
+- Check whether I am using AI to scaffold my judgement or replace it.
