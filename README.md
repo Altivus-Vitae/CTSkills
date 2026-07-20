@@ -44,12 +44,15 @@ This is not a blanket refusal system. It makes authorship and accountability vis
 
 The repository supports multiple native skill systems without making one implementation overwrite the others:
 
-| Platform | Native package |
-|---|---|
-| Claude | Root `SKILL.md` and `cognitive-thermals-research.skill` |
-| ChatGPT desktop / Codex | `plugins/cognitive-thermals-research/` |
-| Perplexity Computer | `platforms/perplexity/cognitive-thermals-research/SKILL.md` |
-| Grok | `platforms/grok/cognitive-thermals-research/SKILL.md` |
+| Platform | Implementation | Capability level |
+|---|---|---|
+| Anthropic Claude | Root `SKILL.md` and `cognitive-thermals-research.skill` | Native Agent Skill |
+| ChatGPT desktop / OpenAI Codex | `plugins/cognitive-thermals-research/` | Native Agent Skill distributed as a Codex plugin |
+| GitHub Copilot | `platforms/github-copilot/cognitive-thermals-research/SKILL.md` | Native Agent Skill |
+| Perplexity Computer | `platforms/perplexity/cognitive-thermals-research/SKILL.md` | Native/custom skill |
+| xAI Grok | `platforms/grok/cognitive-thermals-research/SKILL.md` | Skill Creator import source |
+| Microsoft 365 Copilot Chat and Notebooks | `instructions-compact.md` | Prompt-level custom instructions |
+| Microsoft 365 Agent Builder / Copilot Studio | `platforms/microsoft-365-copilot/cognitive-thermals-research/` | Declarative-agent instructions |
 
 The OpenAI package is a native Agent Skill distributed as a plugin:
 
@@ -90,6 +93,22 @@ Use this route for local experimentation. The plugin route is the recommended di
 
 Plugins are available in Work mode subject to account and workspace availability. A GitHub-hosted marketplace is best installed and tested through Codex or the ChatGPT desktop app. Public listing in the ChatGPT Plugins Directory requires OpenAI's plugin submission and review process.
 
+## Install on GitHub Copilot
+
+GitHub Copilot supports the [open Agent Skills format](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) in Copilot coding agent, code review, Copilot CLI, the GitHub Copilot app and agent mode in supported IDEs.
+
+Download `platforms/github-copilot/cognitive-thermals-research/SKILL.md`, then install the complete `cognitive-thermals-research` folder in one of these locations:
+
+```text
+# Project skill — available in one repository
+.github/skills/cognitive-thermals-research/SKILL.md
+
+# Personal skill — available across local projects
+~/.copilot/skills/cognitive-thermals-research/SKILL.md
+```
+
+GitHub Copilot also recognises `.agents/skills` locations. Keep only one copy at the intended scope to avoid duplicate discovery. Do not install or invoke this edition alongside the parent Cognitive Thermals skill in the same task.
+
 ## Install on Perplexity Computer
 
 Perplexity Computer accepts a Markdown skill directly and activates it automatically when the `description` matches a research task.
@@ -101,6 +120,34 @@ Perplexity Computer accepts a Markdown skill directly and activates it automatic
 5. Confirm the name and description, then test it with a research question, evidence-appraisal task or literature-review problem.
 
 Do not run it alongside the parent Cognitive Thermals edition in the same conversation.
+
+## Use with Microsoft Copilot
+
+Microsoft has several Copilot layers. They do not use one interchangeable package.
+
+### Microsoft 365 Copilot Chat
+
+Use `instructions-compact.md` in **Copilot settings → Personalization → Custom instructions** as described in [Microsoft's personalization guidance](https://support.microsoft.com/en-us/microsoft-365-copilot/customize-how-microsoft-365-copilot-responds-to-you). This is persistent prompt-level guidance, not a native Agent Skill, so invocation and inspection are less reliable than in Claude, Codex or GitHub Copilot.
+
+### Microsoft 365 Copilot Notebooks
+
+Use `instructions-compact.md` under the notebook's **Copilot instructions**. The framework then applies only within that notebook and is visible to collaborators who can edit it. See [Microsoft's Notebook instructions](https://support.microsoft.com/en-us/Microsoft-365-Copilot/provide-custom-instructions-for-your-microsoft-365-copilot-notebook).
+
+### Microsoft 365 Agent Builder
+
+Create a declarative agent and copy the three files from `platforms/microsoft-365-copilot/cognitive-thermals-research/` into the corresponding fields:
+
+- `description.md` → Description
+- `instructions.md` → Instructions
+- `conversation-starters.md` → Suggested prompts or conversation starters
+
+The dedicated instructions are below [Microsoft's 8,000-character declarative-agent limit](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/declarative-agent-instructions). Do not substitute `instructions-full.md`, and do not store overflow instructions in SharePoint or another knowledge source. Knowledge sources may ground evidence retrieval but must not become hidden behavioural instructions.
+
+### Microsoft Copilot Studio
+
+Use the same description and instructions as the behavioural foundation of a new [Copilot Studio agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio). Add knowledge and research tools only where their provenance and outputs can be inspected. Do not add autonomous drafting or submission actions that bypass the assessed-work checkpoint.
+
+Agent availability, organizational sharing, knowledge grounding and consumption depend on Microsoft 365 licensing, tenant policy and Copilot Studio capacity. A future Microsoft 365 Agents Toolkit package would be appropriate for governed tenant or marketplace deployment; it is not required for personal or team use through Agent Builder.
 
 ## Install on Grok
 
@@ -129,15 +176,15 @@ The native skill packages are preferred. Prompt-only versions remain for platfor
 
 | File | Use |
 |---|---|
-| `instructions-full.md` | Gemini Gems and M365 Copilot Agents |
+| `instructions-full.md` | Full prompt fallback for platforms with sufficiently large instruction fields, including Gemini Gems |
 | `instructions-customgpt.md` | Legacy/fallback ChatGPT Custom GPT configuration |
-| `instructions-compact.md` | Tight custom-instruction fields or a first-message prompt |
+| `instructions-compact.md` | Microsoft 365 Copilot Chat, Copilot Notebooks, tight custom-instruction fields or a first-message prompt |
 
 The prompt-only versions remain usable but do not provide native skill discovery, implicit invocation, plugin metadata or skill-stack inspection.
 
 ## First-use compatibility check
 
-Native Claude and Codex skill environments can inspect relevant enabled or available skills. Ask:
+Native Claude, Codex and GitHub Copilot skill environments can inspect relevant enabled or available skills. Ask:
 
 > Run a compatibility check between Cognitive Thermals: Research Edition and my other available skills. Identify trigger, instruction or voice conflicts. For each material conflict, compare Isolation, Hierarchy and Coexistence, recommend one, and confirm that the parent and Research editions should not run together.
 
@@ -163,6 +210,8 @@ Start a new task after reinstalling so the updated skill is loaded cleanly.
 ├── instructions-full.md                # Cross-platform fallback
 ├── instructions-customgpt.md           # Custom GPT fallback
 ├── instructions-compact.md             # Compact fallback
+├── platforms/github-copilot/            # GitHub Copilot native Agent Skill
+├── platforms/microsoft-365-copilot/     # Agent Builder / Copilot Studio material
 ├── platforms/perplexity/                # Perplexity Computer upload source
 ├── platforms/grok/                      # Grok Skill Creator import source
 ├── .agents/plugins/marketplace.json

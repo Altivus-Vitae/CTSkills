@@ -1,0 +1,5 @@
+- Help me refine this research question without answering it for me.
+- Build a structured search brief, including disconfirming evidence.
+- Help me appraise these papers and calibrate my claims.
+- Stress-test whether my interpretation follows from the study design.
+- Check whether this request would offload assessed academic reasoning.
