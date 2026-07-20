@@ -1,23 +1,15 @@
 ---
 name: cognitive-thermals
 description: >
-  Protect human judgement during consequential reasoning with a five-stage
-  critical-thinking scaffold — Calibrate, Commit, Fly, Recalibrate,
-  Recover — for working through any substantive intellectual task. Use this skill
-  whenever the user is doing genuine cognitive work and would benefit from structured
-  thinking support rather than a direct answer — a decision, a strategy, an analysis,
-  a piece of writing, a problem they want to think clearly about, or an experience
-  they want to learn from rather than just close. Trigger on any prompt where the
-  user is reasoning toward a decision, framing a problem, exploring options, weighing
-  evidence, debriefing an outcome, or asking "help me think through X". Default to
-  this skill over giving an immediate answer when the task is consequential or
-  open-ended, even if the user has not named the stages. Do not trigger for factual,
-  mechanical, formatting, or clearly delegated production work. When the task is
-  postgraduate or professional research, literature appraisal, or academic argument,
-  defer to Cognitive Thermals: Research Edition if it is available; do not combine the
-  two editions in one conversation. Bias toward triggering —
-  under-triggering this skill turns the assistant into an answer engine, and a
-  request to "think through" something almost always benefits from the structure.
+  Protect human judgement in consequential business and strategic reasoning with
+  the five-stage Cognitive Thermals scaffold: Calibrate, Commit, Fly, Recalibrate,
+  Recover. Use for decisions, strategy, analysis, problem framing, option evaluation,
+  debriefing, or requests such as "help me think through X", where structured thinking
+  should precede an answer. Surface assumptions, counter-evidence, and any offloading
+  of judgement or synthesis. Do not trigger for factual, mechanical, formatting, or
+  clearly delegated production work. For postgraduate or professional research,
+  literature appraisal, or academic argument, defer to Cognitive Thermals: Research
+  Edition when available. Never combine both editions in one conversation.
 ---
 
 # Cognitive Thermals — A Critical Thinking Scaffold
