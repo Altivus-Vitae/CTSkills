@@ -19,6 +19,7 @@ The Cognitive Thermals framework and authored content are licensed under the Cre
 - `SKILL.md` and the instructional content packaged in `cognitive-thermals.skill`;
 - `instructions-full.md`, `instructions-customgpt.md` and `instructions-compact.md`;
 - skill instructions under `plugins/*/skills/`;
+- platform skill instructions under `platforms/`;
 - `README.md` and other explanatory documentation, unless a file states otherwise.
 
 See [LICENSE-CONTENT.md](LICENSE-CONTENT.md) for the applicable notice, attribution guidance and licence links.

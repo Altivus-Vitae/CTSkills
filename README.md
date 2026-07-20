@@ -28,12 +28,14 @@ The governing principle is simple: **scaffold the user's thinking; do not silent
 
 ## Native skill packages
 
-The repository supports two native skill systems without making one implementation overwrite the other:
+The repository supports multiple native skill systems without making one implementation overwrite the others:
 
 | Platform | Native package |
 |---|---|
 | Claude | Root `SKILL.md` and release file `cognitive-thermals.skill` |
 | ChatGPT desktop / Codex | `plugins/cognitive-thermals/` |
+| Perplexity Computer | `platforms/perplexity/cognitive-thermals/SKILL.md` |
+| Grok | `platforms/grok/cognitive-thermals/SKILL.md` |
 
 The OpenAI package is a native Agent Skill distributed as a plugin. It includes:
 
@@ -76,6 +78,30 @@ Use this route for local experimentation. The plugin route is the recommended di
 
 Plugins are available in Work mode subject to account and workspace availability. A GitHub-hosted marketplace is best installed and tested through Codex or the ChatGPT desktop app. Public listing in the ChatGPT Plugins Directory requires OpenAI's plugin submission and review process.
 
+## Install on Perplexity Computer
+
+Perplexity Computer accepts a Markdown skill directly and activates it automatically when the `description` matches the task.
+
+1. Download `platforms/perplexity/cognitive-thermals/SKILL.md`.
+2. In Perplexity Computer, open **Skills**.
+3. Select **Create skill → Upload a skill**.
+4. Upload `SKILL.md`.
+5. Confirm the name and description, then test it with a consequential decision or strategy question.
+
+If the Research Edition is also installed, keep only one edition active for a given conversation.
+
+## Install on Grok
+
+Grok can create a custom skill from an uploaded file. xAI has not published a separate skill-file schema, so this repository provides a self-contained Markdown import source rather than unsupported platform metadata.
+
+1. Download `platforms/grok/cognitive-thermals/SKILL.md`.
+2. In Grok, open **Skills** and choose the Skill Creator or create a new custom skill.
+3. Upload the file and ask Grok to create a reusable skill from it without shortening or removing the offloading checkpoint.
+4. Review the generated skill instructions before saving.
+5. Test it with a consequential decision or strategy question.
+
+If the Research Edition is also installed, activate only one edition for a given conversation.
+
 ## Install on Claude
 
 The Claude implementation remains unchanged.
@@ -93,7 +119,7 @@ The native skill packages are preferred. Prompt-only versions remain for platfor
 
 | File | Use |
 |---|---|
-| `instructions-full.md` | Gemini Gems, Perplexity Spaces and M365 Copilot Agents |
+| `instructions-full.md` | Gemini Gems and M365 Copilot Agents |
 | `instructions-customgpt.md` | Legacy/fallback ChatGPT Custom GPT configuration |
 | `instructions-compact.md` | Tight custom-instruction fields or a first-message prompt |
 
@@ -140,6 +166,8 @@ Start a new task after reinstalling so the updated skill is loaded cleanly.
 ├── instructions-full.md           # Cross-platform fallback
 ├── instructions-customgpt.md      # Custom GPT fallback
 ├── instructions-compact.md        # Compact fallback
+├── platforms/perplexity/           # Perplexity Computer upload source
+├── platforms/grok/                 # Grok Skill Creator import source
 ├── .agents/plugins/marketplace.json
 └── plugins/cognitive-thermals/    # ChatGPT desktop / Codex plugin
 ```
