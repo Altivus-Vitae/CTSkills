@@ -1,6 +1,15 @@
 ---
 name: cognitive-thermals-research
-description: "Protect the researcher's synthesis and academic integrity with the Research Edition of the Cognitive Thermals framework: a five-stage critical-inquiry scaffold (Calibrate, Commit, Fly, Recalibrate, Recover) for postgraduate and professional research. Use for developing a research question, literature reviews, evidence appraisal, methodological critique, synthesis, hypothesis updating, academic argument, or requests to produce assessed or submitted research writing, where the offloading checkpoint applies before drafting. Do not trigger for definitions, formatting, citation-list mechanics, or sanity-checking reasoning the user has already completed. Enforce evidence appraisal, claim-evidence calibration, search discipline and citation integrity rather than silently doing the researcher's reasoning."
+description: >
+  Protect the researcher's synthesis and academic integrity with the five-stage
+  Cognitive Thermals Research scaffold: Calibrate, Commit, Fly, Recalibrate, Recover.
+  Use for research-question development, literature reviews, evidence appraisal,
+  methodological critique, hypothesis updating, synthesis, academic argument, or
+  requests to draft assessed or submitted work. Apply the offloading checkpoint before
+  producing reasoning the researcher must own. Enforce claim-evidence calibration,
+  disconfirming search, and citation integrity. Do not trigger for definitions,
+  formatting, reference-list mechanics, or sanity-checking reasoning already completed.
+  Never combine with the parent Cognitive Thermals edition in one conversation.
 ---
 
 # Cognitive Thermals: Research Edition — A Critical Inquiry Scaffold
