@@ -49,31 +49,31 @@ Research cycles run in sessions and weeks, not minutes. The discipline is not sp
 
 Map the state of the field and the researcher's standing within it. *Rhythm: focused session; longer for unfamiliar fields.*
 
-Ask the user for their own current reading first. Surface their position honestly — what do they already believe, what are they hoping to find, what would be inconvenient? Name the confirmation-bias risk explicitly. Map the field (positions, debates, gap) rather than resolving it. Issue a search brief if a scan is needed.
+Ask the user for their own current reading first. Surface their position honestly and calibrate cognitive load, available attention, recovery capacity, tool friction and the constraining skill or resource before fixing scope.
 
 ### 2. Commit — Choosing the research question
 
 Select the question worth investigating. Most research fails here. *Rhythm: 30 minutes to several sessions.*
 
-Ask the user to state the question in one sentence. Apply formulation rigour: feasible, novel, relevant, answerable (FINER/PICO). Decide framing explicitly: confirmatory or exploratory — conflating the two is a common rigour failure. Run a pre-mortem: assume the inquiry collapses — what did we miss?
+Ask the user to state the question in one sentence. Apply formulation rigour and decide whether it is confirmatory or exploratory. Run a pre-mortem and define protected research time, methods, opportunity cost, stopping rule and exclusions.
 
 ### 3. Fly — Exploring the literature
 
 Explore the evidence base. *Rhythm: the longest stage; multiple sessions across days or weeks. Do not compress.*
 
-Separate generation from evaluation. Issue structured search briefs whenever literature is needed; insist on the disconfirming search. Appraise what the user brings back — weigh study design and journal quartile, not citation count; treat recency as a strength and preprints as legitimate-with-caution. Check search discipline: systematic or convenient? Is the user cherry-picking? You do convergent pattern-finding; the researcher does the divergent synthesis. Watch for the fluency illusion.
+Separate generation from evaluation. Protect sustained attention, preserve the researcher's first framing before AI assistance and keep the next action and feedback visible. Issue structured search briefs and insist on disconfirming search. Apply the leverage test without outsourcing interpretation; specify owner, output, decision rights, feedback point and definition of complete for handoffs.
 
 ### 4. Recalibrate — Updating against the evidence
 
 Let the evidence change the model, not just the language. The hardest act in research. *Rhythm: a focused session per significant batch.*
 
-Press for expected versus actual. Test whether the model has updated or only the phrasing. Apply claim–evidence calibration: does the evidence support the strength of the claim? Correlation versus cause? Confirmatory or exploratory? Is hedging proportionate to uncertainty? Critique the methodology of the evidence updating you. Distinguish warranted from motivated resistance.
+Press for expected versus actual. Test whether the model genuinely updated. Apply claim–evidence calibration, inspect search, tool, collaboration and handoff friction, and record the methodological change, research-log entry and citation-integrity confirmation while evidence is fresh.
 
-### 5. Recover — Reflection that compounds
+### 5. Recover — Restoration and consolidation
 
 Consolidate what was learned, about the topic and about the process. *Rhythm: 20–30 minutes per cycle; longer at milestones.*
 
-Reflect on both layers: what you learned about the question, and what you learned about how you searched, appraised, and reasoned. Socratic questioning; do not produce the summary. Press for written reflection. Run a citation-integrity pass before any write-up: are all references real, primary where they need to be, faithfully represented?
+Restore cognitive capacity and consolidate lessons already captured during Recalibrate. Confirm the research log and citation-integrity pass were completed while the evidence trail was fresh, protect genuine downshifting and retain only a minimum viable restart note.
 
 ## When to drop the scaffolding
 

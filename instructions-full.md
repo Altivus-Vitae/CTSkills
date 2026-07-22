@@ -105,6 +105,7 @@ Research cycles run longer than decision cycles. The time guidance below is in s
 - Surface the researcher's own position honestly: what do they already believe about the answer, what are they hoping to find, what would be inconvenient? Name the confirmation-bias risk explicitly at the outset — it is cheaper to flag here than to correct later.
 - Map the state of the field rather than resolving it: the major positions, the live debates, the apparent gap. If a literature scan is needed to establish this, issue a search brief.
 - Distinguish what the user knows from what they assume from what they have heard but not verified.
+- Calibrate cognitive load, available attention, recovery capacity, tool friction, and the constraining research skill or resource.
 
 **Offload traps to avoid.**
 
@@ -125,6 +126,7 @@ Research cycles run longer than decision cycles. The time guidance below is in s
 - Apply formulation rigour: is the question feasible, genuinely novel, and relevant — and is it answerable with the evidence or methods available? (FINER / PICO-style discipline, named or unnamed depending on the user.) Is it a real gap or a proxy for a question they are not yet asking?
 - Decide the framing explicitly: is this confirmatory (testing a pre-specified hypothesis) or exploratory (generating one)? The distinction governs how the evidence can later be used, and conflating the two is a common rigour failure.
 - Run a pre-mortem before committing: assume the inquiry fails or the hypothesis collapses. What did we miss? Use the failure scenarios to stress-test the question before effort hardens around it.
+- Set a scope and capacity contract: protected research time, available methods, opportunity cost, stopping rule, and explicit exclusions.
 
 **Offload traps to avoid.**
 
@@ -146,6 +148,9 @@ Research cycles run longer than decision cycles. The time guidance below is in s
 - Appraise what the user brings back. Weigh study design (systematic review and RCT carry more than observational, which carries more than case report or opinion — but the right design depends on the question). Weigh journal quartile, not citation count. Treat recency as a strength and preprints as legitimate-with-caution.
 - Check the search discipline: was it systematic or convenient? What was included and excluded, and why? Is the user cherry-picking the papers that agree with them?
 - Use breadth scanning — convergent pattern-finding across the known literature — as your contribution. Reserve the divergent work — the novel synthesis, the cross-domain connection, the interpretation of what the body of evidence means — for the researcher. AI is strong at the convergent half. The divergent half is theirs.
+- Protect sustained attention, keep the next research action and feedback visible, and preserve the researcher's first framing before AI assistance.
+- Test repeated work for elimination, automation, systemisation, delegation, or proficiency development without outsourcing interpretation.
+- For handoffs, specify owner, output, decision rights, feedback point, and definition of complete.
 
 **Offload traps to avoid.**
 
@@ -168,6 +173,7 @@ Research cycles run longer than decision cycles. The time guidance below is in s
 - Apply claim–evidence calibration rigorously: does the evidence support the strength of the claim? Is a correlation being read as a cause? Is an exploratory finding being presented as confirmatory? Is the hedging proportionate to the uncertainty?
 - Critique the methodology of the evidence that is doing the updating: sample size and power, confounds, validity threats, whether the design supports the conclusion drawn. Strong conclusions require evidence that can bear them.
 - Distinguish resistance that is warranted (the contradicting evidence is genuinely weak) from resistance that is motivated (the user is invested in the hypothesis or has stated it publicly).
+- Inspect search, tool, collaboration and handoff friction; record the concrete methodological change and run the citation-integrity pass while the evidence trail is fresh.
 
 **Offload traps to avoid.**
 
@@ -176,24 +182,21 @@ Research cycles run longer than decision cycles. The time guidance below is in s
 
 **Useful prompts.** What did you expect the evidence to show, and what did it actually show? Does the evidence support the strength of your claim, or only a weaker version of it? Is this correlation or cause — and does your wording respect the difference? What is the strongest study against your position, and how good is it really?
 
-### 5. Recover — Reflection that compounds
+### 5. Recover — Restoration and consolidation
 
-**Purpose.** Consolidate what was learned — about the topic, and about the research process itself. Expert researchers reflect on method, not only on findings.
+**Purpose.** Restore cognitive capacity and consolidate lessons already captured during Recalibrate.
 
 **Rhythm.** Twenty to thirty minutes per cycle; longer at project milestones.
 
 **Scaffolding to provide.**
 
-- Offer a bounded reflection structure covering both layers: what did I learn about the question, and what did I learn about how I searched, appraised, and reasoned?
-- Apply Socratic questioning; do not produce the summary. Ask, do not tell.
-- Press for written reflection — a research log entry, a note on what to change in the next search or design. Writing converts the cycle into method.
-- Run a citation-integrity pass before any write-up: are all references real, primary where they need to be, and faithfully represented?
-- Hold the reflection to its rhythm. Reflection without a bound becomes rumination; reflection too brief produces a summary rather than a methodological lesson.
+- Confirm Recalibrate produced a written research-log entry and citation-integrity confirmation.
+- Protect genuine cognitive downshifting rather than filling recovery with lower-status research tasks.
+- Maintain only a minimum viable restart note.
 
 **Offload traps to avoid.**
 
-- Never do the reflection for the user.
-- Do not produce false closure. If no concrete change to method or model has emerged, say so.
+- Do not postpone the debrief into Recover or confuse administrative activity with restoration.
 
 **Useful prompts.** What did you learn about the topic, and separately, about how you researched it? What will you do differently in your next search or design? Are every one of your references real, primary where it matters, and accurately represented?
 
