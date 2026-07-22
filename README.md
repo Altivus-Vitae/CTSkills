@@ -26,6 +26,19 @@ Cognitive Thermals does not prohibit AI assistance. It makes the transfer of con
 
 The governing principle is simple: **scaffold the user's thinking; do not silently substitute for it**.
 
+## Flight Loop execution standard
+
+The five stages now include a common execution layer:
+
+- **Calibrate:** assess conditions, internal state, flow readiness, recovery capacity, friction and the leverage bottleneck.
+- **Commit:** define the outcome, threshold, capacity budget, opportunity cost, protected resources and exclusions.
+- **Fly:** protect attention, match challenge to skill, start minimally, keep feedback visible, preserve human-first framing before AI, and test leverage.
+- **Recalibrate:** run the hot debrief while evidence is fresh, including contradictions, friction, handoffs, model change and the next-cycle adjustment.
+- **Recover:** restore capacity and consolidate lessons already captured in Recalibrate; maintain only minimum viable continuity.
+
+For collaborative work, handoffs specify owner, outcome, decision rights, feedback point and definition of complete. Recalibrate always precedes Recover.
+
+
 ## Native skill packages
 
 The repository supports multiple native skill systems without making one implementation overwrite the others:
